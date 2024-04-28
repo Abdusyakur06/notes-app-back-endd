@@ -2,7 +2,7 @@ const {nanoid} = require('nanoid')
 const notes = require('./notes')
 
 const addNoteHandler =  (request, h) => {
-    const { title, tags, body } = request.playload
+    const { title, tags, body } = request.payload
 
     const id = nanoid(16)
     const createdAt = new Date().toISOString()
@@ -68,7 +68,7 @@ const getNoteByIdHandler =(request, h) => {
 const editNoteByIdHandler = (request, h) => {
     const {id} = request.params;
 
-    const{title, tags, bady} = request.playload;
+    const{title, tags, body} = request.payload;
     const updatedAt = new Date().toISOString();
 
     const index = notes.findIndex((note) => note.id == id)
