@@ -2,17 +2,17 @@ const {addNoteHandler, getAllNotesHandler, getNoteByIdHandler, deleteNoteByIdHan
 const routess = [{
     method: 'POST',
     path: '/notes',
-    hendler: addNoteHandler,
+    handler: addNoteHandler,
 },
 {
     method: 'GET',
     path: '/notes',
-    hendler: getAllNotesHandler,
+    handler: getAllNotesHandler,
  },
  {
      method: 'GET',
     path: '/notes/{id}',
-    hendler: getNoteByIdHandler ,
+    handler: getNoteByIdHandler ,
  },
  {
     method:'PUT',

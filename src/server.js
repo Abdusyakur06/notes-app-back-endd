@@ -1,4 +1,4 @@
-//3220291 Venny Aknestasya Alvianti
+
 const Hapi = require('@hapi/hapi')
 const routes = require('./routess')
 
