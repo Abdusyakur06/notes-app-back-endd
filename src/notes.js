@@ -1,3 +1,3 @@
-const nptes = []
+const notes = []
 
 module.exports = notes

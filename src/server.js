@@ -1,6 +1,6 @@
 //3220291 Venny Aknestasya Alvianti
 const Hapi = require('@hapi/hapi')
-const routes = require('./routes')
+const routes = require('./routess')
 
 const init = async () => {
     const server = Hapi.server({
