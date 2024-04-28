@@ -1,5 +1,5 @@
 const {addNoteHandler, getAllNotesHandler, getNoteByIdHandler, deleteNoteByIdHandler, editNoteByIdHandler} = require('./handler')
-const routes = [{
+const routess = [{
     method: 'POST',
     path: '/notes',
     hendler: addNoteHandler,
